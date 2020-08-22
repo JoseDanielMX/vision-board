@@ -1,0 +1,58 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: #E8E8E8;
+}
+
+/***** VISION BOARD *****/
+
+.block {
+    box-sizing: border-box;
+    grid-column: 1 / -1;
+}
+
+.center {
+    text-align: center;
+}
+
+.feature {
+    background-color: #3B3B3B;
+    color: #fff;
+    text-align: center;
+}
+
+.large-block {
+    grid-row: span 2;
+}
+
+.right {
+    text-align: right;
+}
+
+#vision-board {
+    display: grid;
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat';
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 215px;
+    margin: 40px auto;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.white {
+    background-color: #fff;
+}
+
+/***** DESKTOP *****/
+
+@media (min-width: 1024px) {
+
+    /***** VISION BOARD *****/
+
+    .block {
+        grid-column: span 4;
+    }
+
+}
