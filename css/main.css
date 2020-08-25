@@ -20,9 +20,10 @@ body {
     text-align: center;
 }
 
-.feature {
+.featured {
     background-color: #3B3B3B;
     color: #fff;
+    padding: 70px 40px;
     text-align: center;
 }
 
@@ -46,11 +47,14 @@ body {
 }
 
 strong {
-    font-size: 2.375em;
+    font-size: 2.375em; 
+	line-height: 38px;
+	text-transform: none;
 }
 
 .title {
     font-size: 1.875em;
+    margin: 10px 0;
 }
 
 #vision-board {
