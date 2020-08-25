@@ -1,7 +1,12 @@
 /***** BASE STYLES *****/
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #E8E8E8;
+    font-size: 1em;
 }
 
 /***** VISION BOARD *****/
@@ -23,7 +28,7 @@ body {
 
 .highlight {
     background-color: #FFF44F;
-    font-size: 18px;
+    font-size: 1.125em;
     padding: 5px 15px;
 }
 
@@ -40,11 +45,20 @@ body {
     text-align: right;
 }
 
+strong {
+    font-size: 2.375em;
+}
+
+.title {
+    font-size: 1.875em;
+}
+
 #vision-board {
     display: grid;
     background: url('../img/background.png');
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: 215px;
     margin: 40px auto;
@@ -64,6 +78,10 @@ body {
 
     .block {
         grid-column: span 4;
+    }
+
+    #vision-board {
+        width: 70%;
     }
 
 }
